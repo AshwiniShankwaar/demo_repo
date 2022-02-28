@@ -1,9 +1,19 @@
-git command
-git clone "git repo link"
-git add "filename"/'.' for all the files 
-git commit -m "message"
-git push 
-git pull
+git command <dont use the "" mark as used in the file directly use the content inside the "".
+as "filename" is given then use the /xyz.txt then the xyz.txt will be added to commit
+
+git init //initialize the git in the folder
+git clone "git repo link" //clone the repo
+git add "specific filename"or'.' for all the files //add the files that are need to be uploaded over the server
+git commit -m "message" //commit the change and add a message to it
+git push //to push a repo to the server like github and bitbucket
+git pull //to pull a repo
+git status // to check the status
+git config --global user.email "example@gmail.com"
+git config --global user.poassword "password"
+git config --global user.name "username"
+git branch //to check in which branch you are
+git branch -M main // to select teh main branch
+git push -u original main// use to push the branch main original to the server
 
 .gitignor file containt the files name that are not going to be pushed to the server
 
