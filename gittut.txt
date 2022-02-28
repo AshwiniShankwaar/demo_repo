@@ -1,0 +1,9 @@
+git command
+git clone "git repo link"
+git add "filename"/'.' for all the files 
+git commit -m "message"
+git push 
+git pull
+
+.gitignor file containt the files name that are not going to be pushed to the server
+
