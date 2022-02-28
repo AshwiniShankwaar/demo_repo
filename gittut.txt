@@ -13,7 +13,11 @@ git config --global user.poassword "password"
 git config --global user.name "username"
 git branch //to check in which branch you are
 git branch -M main // to select teh main branch
+git checkout -b "new bramch" // use to create a new branch and move to other branch
+git checkout "branch name" //to move to other branch
 git push -u original main// use to push the branch main original to the server
-
+#local debvelopment
+data test for the new branch
 .gitignor file containt the files name that are not going to be pushed to the server
 
+refer https://www.youtube.com/watch?v=RGOj5yH7evk
