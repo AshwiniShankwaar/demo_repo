@@ -14,6 +14,10 @@ git config --global user.name "username"
 git branch //to check in which branch you are
 git branch -M main // to select teh main branch
 git push -u original main// use to push the branch main original to the server
-
+git branch -a // to see all the list of the branch
+git branch branch_name // to create the new branch
+git checkout branch_name // to move to branch_name
+git remote origin repo_address //to add the repo to the git branch
+git push origin branch_name //upload or push the file to the repo
 .gitignor file containt the files name that are not going to be pushed to the server
 
